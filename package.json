@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "docs": "./node_modules/.bin/documentation build ./index.js -f md > docs.md",
-    "readme": "./node_modules/.bin/readme -t"
+    "readme": "./node_modules/.bin/readme -t",
+    "prepublish": "npm run docs && npm run readme"
   },
   "author": "mrzmyr (https://github.com/mrzmyr)",
   "username": "mrzmyr",

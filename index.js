@@ -369,7 +369,6 @@ module.exports = class MFiles {
    * Create a document by file path
    * @see https://developer.m-files.com/APIs/REST-API/Creating-Objects/
    * @see https://www.m-files.com/user-guide/latest/eng/built-in_property_definitions.html
-   * @see 
    * @param  {String} file_path Path of the file you want to create the document with
    * @param  {Number|String} class_id id of the required field `class`
    * @return {Promise} resolves to the new created document object

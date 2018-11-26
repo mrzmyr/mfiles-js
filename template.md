@@ -7,7 +7,7 @@
 Install with [npm](https://www.npmjs.com/)
 
 ```sh
-$ npm i <%= name %> --save-dev
+$ npm i mfilesjs --save
 ```
 
 ## Usage
@@ -18,7 +18,6 @@ const mfiles = new Mfiles({
   vault_guid: "MY_VALUT_GUID", // something like {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX}
   vault_url: "https://…"
 });
-
 
 (async () => {
   await mfiles.auth({ username: "MY_USERNAME", password: "MY_PASSWORD" })
