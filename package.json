@@ -1,0 +1,23 @@
+{
+  "name": "mfiles-js",
+  "version": "0.1.0",
+  "description": "An unoffical M-Files JavaScript Wrapper with promise support",
+  "main": "index.js",
+  "scripts": {
+    "docs": "documentation build ./index.js -f md > docs.md",
+    "test": "jest"
+  },
+  "author": "mrzmyr (https://github.com/mrzmyr)",
+  "username": "mrzmyr",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^7.1.0",
+    "mime-types": "^2.1.21",
+    "request-promise": "^4.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/mrzmyr/mfiles-js/issues"
+  },
+  "devDependencies": {
+  }
+}
