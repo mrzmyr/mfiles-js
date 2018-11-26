@@ -394,7 +394,6 @@ Returns **[Promise][60]** Returning a [`download`][77] promise
 
 -   **See: [https://developer.m-files.com/APIs/REST-API/Creating-Objects/][78]**
 -   **See: [https://www.m-files.com/user-guide/latest/eng/built-in_property_definitions.html][79]**
--   **See: **
 
 Create a document by file path
 

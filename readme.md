@@ -1,4 +1,4 @@
-# mfiles-js
+# mfilesjs
 
 > An unoffical M-Files JavaScript Wrapper with promise support
 
