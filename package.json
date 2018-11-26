@@ -2,9 +2,9 @@
   "name": "mfilesjs",
   "version": "0.1.0",
   "description": "An unoffical M-Files JavaScript Wrapper with promise support",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "docs": "./node_modules/.bin/documentation build ./index.js -f md > docs.md",
+    "docs": "./node_modules/.bin/documentation build ./src/index.js -f md > docs.md",
     "readme": "./node_modules/.bin/readme -t template.md",
     "prepublish": "npm run docs && npm run readme"
   },
