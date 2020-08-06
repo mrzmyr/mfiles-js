@@ -98,7 +98,7 @@ module.exports = class MFiles {
 
       query_uri = query_uri_params.join('&')
     } else {
-      query_uri = `q=${params}`
+      query_uri = `q=${query_params}`
     }
 
     return this._r(`/objects.aspx?${query_uri}`)
